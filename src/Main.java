@@ -9,8 +9,10 @@ public class Main {
 		
 		int N, quadrado, cubo;
 		
-		
-		
+		N = sc.nextInt();
+		for (int i = 0; i < N; i++) {
+			
+		}
 		
 		sc.close();
 
