@@ -7,12 +7,17 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int N, quadrado, cubo;
+		int N, quadrado = 0, cubo = 0, i;
 		
 		N = sc.nextInt();
-		for (int i = 0; i < N; i++) {
-			
+		for (i = 1; i <= N; i++) {
+			quadrado = (int) Math.pow(i, 2);
+			cubo = (int) Math.pow(i, 3);
+			System.out.print(i + " ");
+			System.out.print(quadrado + " ");
+			System.out.println(cubo);
 		}
+		
 		
 		sc.close();
 
